@@ -27,5 +27,7 @@ routes.route("product/:id").get(function (req, res) {
       res.json(result);
     });
  });
-    
+
+ 
+ 
    module.exports = routes;

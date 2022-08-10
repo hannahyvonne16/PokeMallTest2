@@ -2,22 +2,22 @@ import React from 'react'
 import NavBar from '../components/navbar'
 
 
-function Homepage() {
+function ViewCart() {
     return (
         <div>
             {/* Navbar */}
-            <NavBar />
+            <NavBar/>
             <div>
-                Homepage
+                About us stuff
             </div>
-            {/*list of products alsp show in hompage */}
+             {/*list of products alsp show in hompage */}
 
         </div>
+        
+        
 
-
-
-
+    
     )
 }
 
-export default Homepage;  
+export default ViewCart;  
